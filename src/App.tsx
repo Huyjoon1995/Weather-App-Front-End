@@ -19,6 +19,7 @@ interface AppState {
 }
 class App extends React.Component<any, AppState> {
   constructor(props: any) {
+    document.title = "Weather Monitoring App";
     super(props);
     this.state = {
       zipcode: "",
